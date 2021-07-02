@@ -1,8 +1,10 @@
 package ContadorMonitor;
 
+
 public class ContadorConcurrente {
     public static void main(String[] args) {
-        MonitorContador countMon = new MonitorContador();
+        //MonitorContador countMon = new MonitorContador();
+        MonitorContadorDeA2 countMon = new MonitorContadorDeA2();
         Thread[] hilos;
         hilos= new Thread[10];
 

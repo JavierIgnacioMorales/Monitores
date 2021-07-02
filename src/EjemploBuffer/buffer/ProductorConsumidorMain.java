@@ -1,7 +1,5 @@
 package buffer;
 
-import java.util.concurrent.RunnableFuture;
-
 public class ProductorConsumidorMain {
     public static void main(String[] args) {
         BufferMonitor bufferMon = new BufferMonitor(10);
